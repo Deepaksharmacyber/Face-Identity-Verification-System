@@ -1,0 +1,8 @@
+import numpy as np
+from utils.embedding import extract_embedding
+
+embedding = extract_embedding("reference/reference_normalized.png")
+
+np.save("reference/identity_embedding.npy", embedding)
+
+print("Identity embedding saved.")

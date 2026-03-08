@@ -1,0 +1,10 @@
+{
+  "model_name": "InsightFace Buffalo_L (ArcFace)",
+  "embedding_dimension": 512,
+  "normalization": "L2",
+  "similarity_threshold": 0.93,
+  "float_precision": "float32",
+  "created_date": "2026-03-03",
+  "created_by": "Admin",
+  "notes": "Initial identity anchor creation"
+}
