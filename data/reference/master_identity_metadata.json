@@ -1,0 +1,10 @@
+{
+  "identity_name": "canonical_identity",
+  "master_image": "master_identity.png",
+  "embedding_file": "identity_embedding.npy",
+  "embedding_dimension": 512,
+  "embedding_model": "InsightFace Buffalo_L",
+  "normalization": "L2",
+  "similarity_threshold": 0.93,
+  "status": "approved"
+}

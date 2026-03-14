@@ -1,0 +1,39 @@
+{
+  "title": "Identity Validation Report",
+  "type": "object",
+  "properties": {
+    "image_name": {
+      "type": "string",
+      "description": "Name of the validated image"
+    },
+    "similarity_score": {
+      "type": "number",
+      "description": "Cosine similarity score between test image and identity anchor"
+    },
+    "threshold": {
+      "type": "number",
+      "description": "Minimum similarity threshold required for identity validation"
+    },
+    "result": {
+      "type": "string",
+      "enum": ["PASS", "FAIL"],
+      "description": "Validation result"
+    },
+    "anchor_embedding_dimension": {
+      "type": "integer",
+      "description": "Dimension of the anchor embedding vector"
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "Time when validation was performed"
+    }
+  },
+  "required": [
+    "image_name",
+    "similarity_score",
+    "threshold",
+    "result",
+    "anchor_embedding_dimension",
+    "timestamp"
+  ]
+}
